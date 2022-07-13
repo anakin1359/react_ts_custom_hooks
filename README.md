@@ -15,7 +15,7 @@ yarn install
 
 library install
 ```
-yarn add ${library-name}
+yarn add axios
 ```
 
 start project
