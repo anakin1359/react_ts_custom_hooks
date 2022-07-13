@@ -43,8 +43,8 @@ export const useAllUsers = () => {
             .finally(() => {
                 setLoading(false);
             });
-    }
+    };
 
     // 他componentからも参照できるように設定
     return { getUsers, userProfiles, loading, error };
-}
+};
