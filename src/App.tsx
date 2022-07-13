@@ -1,12 +1,17 @@
 import './App.css';
+import { UserCard } from './components/UserCard';
 
-function App() {
+const user = {
+  id: 1,
+  name: "anakin",
+  email: "anakin@gmail.com",
+  address: "東京都千代田区XXXX"
+};
+
+export default function App() {
   return (
     <div className="App">
-      <h1>Start React TypeScript Sample Project</h1>
-      <p>Let's develop with React!</p>
+      <UserCard user={user}/>
     </div>
   );
-}
-
-export default App;
+};
